@@ -1,8 +1,10 @@
 import os
 
-BASE_PATH = '/media/HDD/SARAS_Net/train_dataset'
+# BASE_PATH = '/media/HDD/SARAS_Net/train_dataset'
+BASE_PATH = 'E:\\DataSet\\LEVIR\\train'
 PRETRAIN_MODEL_PATH = os.path.join(BASE_PATH,'pretrain')
-DATA_PATH = '/media/HDD/SARAS_Net/train_dataset'
+# DATA_PATH = '/media/HDD/SARAS_Net/train_dataset'
+DATA_PATH = 'E:\\DataSet\\LEVIR\\train'
 TRAIN_DATA_PATH = os.path.join(DATA_PATH)
 TRAIN_LABEL_PATH = os.path.join(DATA_PATH)
 TRAIN_TXT_PATH = os.path.join(DATA_PATH,'train.txt')
@@ -11,7 +13,8 @@ VAL_LABEL_PATH = os.path.join(DATA_PATH)
 VAL_TXT_PATH = os.path.join(DATA_PATH,'val.txt')
 TEST_DATA_PATH = os.path.join(DATA_PATH)
 TEST_TXT_PATH = os.path.join(DATA_PATH,'val.txt')
-SAVE_PATH = '/media/HDD/SARAS_Net/LEVIR'
+# SAVE_PATH = '/media/HDD/SARAS_Net/LEVIR'
+SAVE_PATH = 'D:\Desktop\study\Graduation Project\code\LEVIR_Weight'
 if not os.path.exists(SAVE_PATH):
     os.mkdir(SAVE_PATH)
 INIT_LEARNING_RATE = 0.05

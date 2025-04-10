@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from itertools import chain
 #from swin_transformer import SwinTransformer
 from einops import rearrange
-from torchvision.models.utils import load_state_dict_from_url
+from torch.hub import load_state_dict_from_url
 
 GlobalAvgPool2D = lambda: nn.AdaptiveAvgPool2d(1)
 
